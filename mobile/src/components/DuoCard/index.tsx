@@ -46,7 +46,7 @@ export function DuoCard({data, onConnect}: Props) {
 
         <TouchableOpacity
         style={styles.button}
-        onPress ={onConnect}
+        onPress={onConnect}
         >
           <GameController 
            size={20}

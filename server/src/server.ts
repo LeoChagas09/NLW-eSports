@@ -87,11 +87,11 @@ app.get('/ads/:id/discord', async(req, res) => {
         where: {
             id: adId,
         }
-    })
+    });
 
     return res.json({
-        discord: ad.discord
+        discord: ad.discord,
     })
-})
+});
 
 app.listen(3333);
